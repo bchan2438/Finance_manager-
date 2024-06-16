@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Edit Goal</title>
+</head>
+<body>
+    <h1>Edit Goal</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+    <a href="{% url 'goals_list' %}">Back to Goals List</a>
+</body>
+</html>
