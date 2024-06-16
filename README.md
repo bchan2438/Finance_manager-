@@ -10,8 +10,6 @@ Features
 
 Expense Tracking: Add, edit, and delete expense entries categorized by type (e.g., food, transportation, entertainment).
 
-Data Visualization: Visualize spending patterns with pie charts and bar charts using Matplotlib.
-
 Financial Goals: Set and track financial goals to manage your budget effectively.
 
 User Authentication: Secure user data with Django's built-in authentication system.
@@ -23,13 +21,9 @@ Technologies Used
 
 Backend: Django (Python)
 
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML
 
 Database: SQLite (default with Django)
-
-Visualization: Matplotlib
-
-Deployment: PythonAnywhere
 
 
 Installation
