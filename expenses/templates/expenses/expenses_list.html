@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expenses List</title>
+</head>
+<body>
+ <h1>Expenses List</h1>
+    <ul>
+        {% for expense in expenses %}
+            <li>{{ expense.category }}: {{expense.description}} - {{ expense.amount }} - {{ expense.date }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add_expense' %}">Add an Expense</a>
+    <a href="{% url 'index' %}">Back to Home</a>
+</body>
+</html>

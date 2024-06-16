@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Goals</title>
+</head>
+<body>
+    <h1>Add Goal</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add Goal</button>
+    </form>
+    <a href="{% url 'goals_list' %}">Back to Goals</a>
+</body>
+</html>
