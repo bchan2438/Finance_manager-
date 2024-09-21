@@ -3,7 +3,7 @@ Personal Finance Dashboard
 
 Overview
 
-The Personal Finance Dashboard is a Django-based web application designed to help users track their expenses, visualize their spending habits, and set financial goals. This application provides a secure platform for managing personal finances and gaining insights through data visualization.
+The Personal Finance Dashboard is a Django-based web application designed to help users track their expenses, visualize their spending habits, and set financial goals. This application provides a secure platform for managing personal finances.
 
 
 Features
